@@ -29,10 +29,10 @@ export default function Authenticated({ auth, header, children }) {
                                     Projects
                                 </NavLink>
                                 <NavLink href={route('task.index')} active={route().current('task.index')}>
-                                    Tasks
+                                    All Tasks
                                 </NavLink>
                                 <NavLink href={route('user.index')} active={route().current('user.index')}>
-                                    User
+                                    Users
                                 </NavLink>
                             </div>
                         </div>
